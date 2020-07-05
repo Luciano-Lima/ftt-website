@@ -2316,17 +2316,12 @@ fieldset:disabled a.btn {
 
 .dropdown:hover>.dropdown-menu {
   display: block;
-  
 }
 
 .dropdown>.dropdown-toggle:active {
   /*Without this, clicking will make it sticky*/
     pointer-events: initial;
-    
 }
-
-
-
 
 
 .btn-secondary {
@@ -3119,6 +3114,7 @@ input[type="button"].btn-block {
   color: #16181b;
   text-decoration: none;
   background-color: #f8f9fa;
+  display: block;
 }
 
 .dropdown-item.active, .dropdown-item:active {
