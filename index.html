@@ -40,22 +40,33 @@
           <li class="nav-item mx-0 mx-lg-1">
             <a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="#portfolio">Knowledge</a>
           </li>
-          <li class="nav-item mx-0 mx-lg-1">
-            <a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="#services">Services</a>
-          </li>
-
           <!-- <div class="dropdown">
             <li class="nav-item mx-0 mx-lg-1">
               <a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger dropdown-toggle" data-toggle="dropdown"
-                aria-haspopup="true" aria-expanded="false" href="#services" role="button" id="dropdownMenuLink" >Services</a>
+                aria-haspopup="true" aria-expanded="false" role="button" id="dropdownMenuLink" >Services</a>
             </li>
             <div class="dropdown-menu" data-toggle="modal" aria-labelledby="dropdownMenuButton" data-target="#portfolioModal8">
               <a class="dropdown-item" href="#">Chakra Development</a>
             </div>
-          </div> -->
+          </div>  -->
 
+          <div class="dropdown">
+            <button class="btn btn-secondary dropdown-toggle py-3 px-0 px-lg-3 rounded service-dropdown-button" id="dropdownMenuButton" data-toggle="dropdown"
+              aria-haspopup="true" aria-expanded="false">
+              Services
+            </button>
+            <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+              <a class="dropdown-item" href="#" data-toggle="modal" aria-labelledby="dropdownMenuButton"
+                data-target="#portfolioModal7">Course Workshop</a>
+              <a class="dropdown-item" href="#" data-toggle="modal" aria-labelledby="dropdownMenuButton"
+                data-target="#portfolioModal8">Chakra Dev Therapy</a>
+              <a class="dropdown-item" href="#" data-toggle="modal" aria-labelledby="dropdownMenuButton"
+                data-target="#portfolioModal9">Family Const Therapy</a>
 
+            </div>
+          </div>
 
+          
           <li class="nav-item mx-0 mx-lg-1">
             <a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="#about">About</a>
           </li>
@@ -68,7 +79,6 @@
   </nav>
 
   <!-- Masthead -->
-
   <header class="masthead bg-primary text-white text-center">
     <div class="wrapper-masthead">
       <div class="container d-flex align-items-center flex-column">
@@ -93,15 +103,11 @@
     </div>
     </div>
   </header>
-
-
   <!-- Portfolio Section -->
   <section class="page-section portfolio" id="portfolio">
     <div class="container text-center">
-
       <!-- Portfolio Section Heading -->
       <h2 class="page-section-heading text-center text-uppercase text-secondary mb-0">Our hub for Knowledge</h2>
-
       <!-- Icon Divider -->
       <div class="divider-custom">
         <div class="divider-custom-line"></div>
@@ -110,10 +116,8 @@
         </div>
         <div class="divider-custom-line"></div>
       </div>
-
       <!-- Portfolio Grid Items -->
       <div class="row">
-
         <!-- Portfolio Item 1 -->
         <div class="col-md-6 col-lg-4">
           <div class="portfolio-item mx-auto" data-toggle="modal" data-target="#portfolioModal1">
@@ -125,7 +129,6 @@
             <img class="img-fluid" src="img/portfolio/wellness.png" alt="wellness img">
           </div>
         </div>
-
         <!-- Portfolio Item 2 -->
         <div class="col-md-6 col-lg-4">
           <div class="portfolio-item mx-auto" data-toggle="modal" data-target="#portfolioModal2">
@@ -137,7 +140,6 @@
             <img class="img-fluid" src="img/portfolio/mental-healty.png" alt="mental-health img">
           </div>
         </div>
-
         <!-- Portfolio Item 3 -->
         <div class="col-md-6 col-lg-4">
           <div class="portfolio-item mx-auto" data-toggle="modal" data-target="#portfolioModal3">
@@ -148,12 +150,8 @@
             </div>
             <img class="img-fluid" src="img/portfolio/veg.png" alt="vegetables picure">
           </div>
-
         </div>
       </div>
-
-
-
       <!-- Portfolio Item 4 -->
       <div class="row">
         <div class="col-md-6 col-lg-4">
@@ -202,7 +200,6 @@
         </div>
         <div class="divider-custom-line"></div>
       </div>
-      <!-- ≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠ -->
       <!-- Portfolio Services -->
       <!-- First column -->
       <div class="row">
@@ -260,11 +257,12 @@
       </div>
       <p class="lead text-uppercase text-center m-3 text-muted">Find out
         More About our Services</p>
-      <button class="btn btn-outline-info m-3" data-toggle="modal" data-target="#portfolioModal7">One-to-One session & 10 Weeks Course Workshop
+      <button class="btn btn-outline-info m-3" data-toggle="modal" data-target="#portfolioModal7">1-2-1 &
+        10 Weeks Course Workshop
       </button>
-      <button class="btn btn-outline-info m-3" data-toggle="modal" data-target="#portfolioModal8">Chakra Development and Family Constellation Therapy</button>
+      <button class="btn btn-outline-info m-3" data-toggle="modal" data-target="#portfolioModal8">Chakra Development Therapy</button>
       
-
+      <button class="btn btn-outline-info m-3" data-toggle="modal" data-target="#portfolioModal9">Family Constellation Therapy</button>
   </section>
   <!-- About Section -->
   <section class="page-section bg-primary text-white mb-0" id="about">
@@ -536,7 +534,6 @@
       </div>
     </div>
   </div>
-
   <!-- Portfolio Modal 2 -->
   <div class="portfolio-modal modal fade" id="portfolioModal2" tabindex="-1" role="dialog"
     aria-labelledby="portfolioModal2Label" aria-hidden="true">
@@ -623,7 +620,6 @@
       </div>
     </div>
   </div>
-
   <!-- Portfolio Modal 3 -->
   <div class="portfolio-modal modal fade" id="portfolioModal3" tabindex="-1" role="dialog"
     aria-labelledby="portfolioModal3Label" aria-hidden="true">
@@ -719,7 +715,6 @@
       </div>
     </div>
   </div>
-
   <!-- Portfolio Modal 4 -->
   <div class="portfolio-modal modal fade" id="portfolioModal4" tabindex="-1" role="dialog"
     aria-labelledby="portfolioModal4Label" aria-hidden="true">
@@ -845,7 +840,6 @@
       </div>
     </div>
   </div>
-
   <!-- Portfolio Modal 5 -->
   <div class="portfolio-modal modal fade" id="portfolioModal5" tabindex="-1" role="dialog"
     aria-labelledby="portfolioModal5Label" aria-hidden="true">
@@ -1037,103 +1031,7 @@
       </div>
     </div>
   </div>
-  <!-- ≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠≠ -->
-  <!-- Portfolio Modal 7 Dropdwon Navbar -->
-  <div class="portfolio-modal modal fade" id="portfolioModal8" tabindex="-1" role="dialog"
-    aria-labelledby="portfolioModal1Label" aria-hidden="true">
-    <div class="modal-dialog modal-xl" role="document">
-      <div class="modal-content">
-        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-          <span aria-hidden="true">
-            <i class="fas fa-times"></i>
-          </span>
-        </button>
-        <div class="modal-body text-center">
-          <div class="container">
-            <div class="row justify-content-center">
-              <div class="col-lg-8">
-                <!-- Portfolio Modal - Title -->
-                <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0">Chakra Development</h2>
-                <!-- Icon Divider -->
-                <div class="divider-custom">
-                  <div class="divider-custom-line"></div>
-                  <div class="divider-custom-icon">
-                    <i class="fas fa-star"></i>
-                  </div>
-                  <div class="divider-custom-line"></div>
-                </div>
-                <!-- Portfolio Modal - Image -->
-                <img class="img-fluid rounded mb-5" src="img/chakras.png" alt="chakras img">
-                <!-- Portfolio Modal - Text -->
-                <p class="lead">1 - Root Chakra</p>
-                <p>Located in the tailbone, this chakra is associated with the color red in the adrenal medulla, the
-                  gland responsible for fight or flight (onset of a panic attack). The Root chakra regulates the realms
-                  of <strong>survival, instinct</strong> and feeling <strong>grounded</strong>. When this chakra is out
-                  of balance we feel
-                  depleted, hopeless, ungrounded, anxious, and lonely.
-                </p>
-                <div class="toggle">
-                  <span class="continue-reading">Continue Reading...</span>
-                </div>
-                <div class="panel">
-                  <p class="lead">2 - Sacral Chakra</p>
-                  <p>Located in the pelvis and associated with the color orange, it is in the adrenal glands and the
-                    genitourinary system. This chakra regulates the <strong>basic emotional</strong> and <strong>sexual
-                      needs</strong> as well as creativity
-                    and confidence. When this chakra is out of balance we feel emotionally imbalanced, lonely, and might
-                    struggle with addictions and codependency.
-                  </p>
-                  <p class="lead">3 - Solar Plexus Chakra</p>
-                  <p>Located under the ribs and in the diaphragm, this chakra is associated with the color yellow and it
-                    is the digestive system and the adrenal glands. This chakra regulates our fears, sense of power, and
-                    <strong>gut feelings</strong>. When this chakra is out of balance we experience fears, eating
-                    disorders, anxiety, and
-                    loss of control.
-                  </p>
-                  <p class="lead">4 - Heart Chakra</p>
-                  <p>
-                    Located in the center of the chest around the heart area and is associated with the color green and
-                    the heart, the thymus, and the endocrine system. This chakra relates to compassion, <strong>love for
-                      self</strong>
-                    and others, connection, and safety. When this chakra is out of balance we feel disconnected,
-                    hopeless, and rejected
-                  </p>
-                  <p class="lead">5 - Throat Chakra</p>
-                  <p>
-                    Located in the throat area and associated with the color blue and the thyroid gland and regulates
-                    our <strong>sense of security, leadership, expression</strong>, and fluid communication. When this
-                    chakra is out of
-                    balance, we feel anxious, paralyzed, and insecure.
-                  </p>
-                  <p class="lead">6 - Third-Eye Chakra</p>
-                  <p>
-                    Located between your eyebrows and associated with the color indigo and the pineal gland and
-                    regulates our <strong>inner guidance or intuition, thoughts, and dreams</strong>. When this chakra
-                    is out of balance,
-                    we may feel imbalanced and judgmental, unable to access our intuition, and have difficulty sleeping.
-                  </p>
-                </div>
-                <hr>
-                <p class="lead">7 - Crown Chakra</p>
-                <p>
-                  Located at the crown of your head and associated with the color violet and the pituitary gland and the
-                  central nervous system. It is associated with our <strong>consciousness, inner wisdom, imagination, and
-                  spirituality</strong>. When this chakra is out of balance, we feel depressed, hopeless, confused, and
-                  disconnected.
-                </p>
-                <button class="btn btn-primary" href="#" data-dismiss="modal">
-                  <i class="fas fa-times fa-fw"></i>
-                  Close Window
-                </button>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-
-  <!-- =============================================================================== -->
+  <!-- Portfolio Modal 7 -->
   <div class="portfolio-modal modal fade" id="portfolioModal7" tabindex="-1" role="dialog"
     aria-labelledby="portfolioModal7Label" aria-hidden="true">
     <div class="modal-dialog modal-xl" role="document">
@@ -1273,19 +1171,210 @@
         </div>
       </div>
     </div>
-    <!-- Bootstrap core JavaScript -->
-    <script src="vendor/jquery/jquery.min.js"></script>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-    <!-- Plugin JavaScript -->
-    <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
-    <!-- Contact Form JavaScript -->
-    <!-- <script src="js/jqBootstrapValidation.js"></script> -->
-    <!-- <script src="js/contact_me.js"></script> -->
-    <script src="js/sendEmail.js"></script>
-    <!-- Custom scripts for this template -->
-    <script src="js/freelancer.min.js"></script>
-    <script src="js/jquery/jquery.js"></script>
+  </div>
+  <!-- Portfolio Modal 8 -->
+  <div class="portfolio-modal modal fade" id="portfolioModal8" tabindex="-1" role="dialog"
+    aria-labelledby="portfolioModal1Label" aria-hidden="true">
+    <div class="modal-dialog modal-xl" role="document">
+      <div class="modal-content">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">
+            <i class="fas fa-times"></i>
+          </span>
+        </button>
+        <div class="modal-body text-center">
+          <div class="container">
+            <div class="row justify-content-center">
+              <div class="col-lg-8">
+                <!-- Portfolio Modal - Title -->
+                <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0">Chakra Development</h2>
+                <!-- Icon Divider -->
+                <div class="divider-custom">
+                  <div class="divider-custom-line"></div>
+                  <div class="divider-custom-icon">
+                    <i class="fas fa-star"></i>
+                  </div>
+                  <div class="divider-custom-line"></div>
+                </div>
+                <!-- Portfolio Modal - Image -->
+                <img class="img-fluid rounded mb-5" src="img/chakras.png" alt="chakras img">
+                <!-- Portfolio Modal - Text -->
+                <p class="lead">1 - Root Chakra</p>
+                <p>Located in the tailbone, this chakra is associated with the color red in the adrenal medulla, the
+                  gland responsible for fight or flight (onset of a panic attack). The Root chakra regulates the realms
+                  of <strong>survival, instinct</strong> and feeling <strong>grounded</strong>. When this chakra is out
+                  of balance we feel
+                  depleted, hopeless, ungrounded, anxious, and lonely.
+                </p>
+                <div class="toggle">
+                  <span class="continue-reading">Continue Reading...</span>
+                </div>
+                <div class="panel">
+                  <p class="lead">2 - Sacral Chakra</p>
+                  <p>Located in the pelvis and associated with the color orange, it is in the adrenal glands and the
+                    genitourinary system. This chakra regulates the <strong>basic emotional</strong> and <strong>sexual
+                      needs</strong> as well as creativity
+                    and confidence. When this chakra is out of balance we feel emotionally imbalanced, lonely, and might
+                    struggle with addictions and codependency.
+                  </p>
+                  <p class="lead">3 - Solar Plexus Chakra</p>
+                  <p>Located under the ribs and in the diaphragm, this chakra is associated with the color yellow and it
+                    is the digestive system and the adrenal glands. This chakra regulates our fears, sense of power, and
+                    <strong>gut feelings</strong>. When this chakra is out of balance we experience fears, eating
+                    disorders, anxiety, and
+                    loss of control.
+                  </p>
+                  <p class="lead">4 - Heart Chakra</p>
+                  <p>
+                    Located in the center of the chest around the heart area and is associated with the color green and
+                    the heart, the thymus, and the endocrine system. This chakra relates to compassion, <strong>love for
+                      self</strong>
+                    and others, connection, and safety. When this chakra is out of balance we feel disconnected,
+                    hopeless, and rejected
+                  </p>
+                  <p class="lead">5 - Throat Chakra</p>
+                  <p>
+                    Located in the throat area and associated with the color blue and the thyroid gland and regulates
+                    our <strong>sense of security, leadership, expression</strong>, and fluid communication. When this
+                    chakra is out of
+                    balance, we feel anxious, paralyzed, and insecure.
+                  </p>
+                  <p class="lead">6 - Third-Eye Chakra</p>
+                  <p>
+                    Located between your eyebrows and associated with the color indigo and the pineal gland and
+                    regulates our <strong>inner guidance or intuition, thoughts, and dreams</strong>. When this chakra
+                    is out of balance,
+                    we may feel imbalanced and judgmental, unable to access our intuition, and have difficulty sleeping.
+                  </p>
+                </div>
+                <hr>
+                <p class="lead">7 - Crown Chakra</p>
+                <p>
+                  Located at the crown of your head and associated with the color violet and the pituitary gland and the
+                  central nervous system. It is associated with our <strong>consciousness, inner wisdom, imagination,
+                    and
+                    spirituality</strong>. When this chakra is out of balance, we feel depressed, hopeless, confused,
+                  and
+                  disconnected.
+                </p>
+                <button class="btn btn-primary" href="#" data-dismiss="modal">
+                  <i class="fas fa-times fa-fw"></i>
+                  Close Window
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- Portfolio Modal 9 -->
+  <div class="portfolio-modal modal fade show" id="portfolioModal9" tabindex="-1" role="dialog"
+    aria-labelledby="portfolioModal1Label" aria-hidden="true">
+    <div class="modal-dialog modal-xl" role="document">
+      <div class="modal-content">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">
+            <i class="fas fa-times"></i>
+          </span>
+        </button>
+        <div class="modal-body text-center">
+          <div class="container">
+            <div class="row justify-content-center">
+              <div class="col-lg-8">
+                <!-- Portfolio Modal - Title -->
+                <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0">Family Constellation Therapy</h2>
+                <!-- Icon Divider -->
+                <div class="divider-custom">
+                  <div class="divider-custom-line"></div>
+                  <div class="divider-custom-icon">
+                    <i class="fas fa-star"></i>
+                  </div>
+                  <div class="divider-custom-line"></div>
+                </div>
+                <!-- Portfolio Modal - Image -->
+                <img class="img-fluid rounded mb-5" src="img/tree.jpg" alt="family tree img">
+                <!-- Portfolio Modal - Text -->
+                <p class="lead">Family Costellation</p>
+                <p>Family constellations in an essence is a causational and consequential emotional exercise, in other
+                  words for every past action there is future repercussion whether that is positive or negative, this
+                  is according to physics and chemistry, however in the spiritual sense this is known as karma and
+                  dharma. Also, it is a systemic therapy, as it stimulates change through the following ways:
+                </p>
+                <div class="toggle">
+                  <span class="continue-reading">Continue Reading...</span>
+                </div>
+                <div class="panel">
+
+                  <p>1- Making visible the spatial arrangement of relationships within a conflictual system; people
+                    are
+                    systems, every system has a set of values which may conflict or align
+                  </p>
+
+                  <p>2 - Providing access to the insights of unrelated third parties regarding the sensations,
+                    feelings, and thoughts they experienced while representing family members within the
+                    constellation;
+                  </p>
+
+                  <p>3 - Making observable (from the outside) and experienceable (from within) the transformation of
+                    the
+                    problem <strong>(cause)</strong> into the solution <strong>(Consequence)</strong>;
+                  </p>
+                  <p>Removing any entanglements <strong>(the appropriation of other people's pain as our own)</strong>
+                    or burdens
+                    carried by us, that belongs to our family members. We appropriate other people's pain, living or
+                    dead people out of consideration for the life they gave us or for paving the way for us to be here
+                    on earth. In a nutshell we do this out of Love, or Fear of not belonging within a family group.
+                    The pain connects people and it breeds familiarity which feels pretty much like love, whereas that
+                    is only a form of connection to those that we love or assume that we hate <strong>(hate is love
+                      but
+                      unreciprocated love, meaning the person that one loves does not see you nor acknowledge your
+                      presence or existence)</strong>. Everyone around us is just a representation of our
+                    constellation
+                    (ancestral family), i.e. our current relationships, our jobs and activities.
+                  </p>
+
+                  <p>
+                    It is this thread of Acknowledgement that creates the deep emotional entanglement that affects our
+                    mental wellness and physical wellness i.e. we become underweight or overweight; and it affects our
+                    spiritual wellness as the mother and father figure are often replaced by the belief of God, who we
+                    perceive as the only person who will never disappoint or abandon us <stromg>(being overly
+                      religious or
+                      overly atheistic is a reflection of the disappointment or abandonment emotions that we feel
+                      towards our parents)</stromg>. In short, parents are the Gods of children until the age of 12
+                    <strong>(when
+                      children begin to develop their own identity)</strong> as that is when we begin to notice our
+                    parent's
+                    imperfection, and this usually means the 7 chakras were not well nurtured to make the child feel
+                    grounded and feel like they belong in their family tree (Please see the quote in the picture).
+                  </p>
+                </div>
+                <hr>
+
+                <button class="btn btn-primary" href="#" data-dismiss="modal">
+                  <i class="fas fa-times fa-fw"></i>
+                  Close Window
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- Bootstrap core JavaScript -->
+  <script src="vendor/jquery/jquery.min.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <!-- Plugin JavaScript -->
+  <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
+  <!-- Contact Form JavaScript -->
+  <!-- <script src="js/jqBootstrapValidation.js"></script> -->
+  <!-- <script src="js/contact_me.js"></script> -->
+  <script src="js/sendEmail.js"></script>
+  <!-- Custom scripts for this template -->
+  <script src="js/freelancer.min.js"></script>
+  <script src="js/jquery/jquery.js"></script>
 </body>
 
 </html>

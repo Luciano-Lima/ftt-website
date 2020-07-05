@@ -2325,7 +2325,15 @@ fieldset:disabled a.btn {
     
 }
 
+.service-dropdown-button {
+  font-weight: 600;
+  text-transform: inherit;
+}
 
+/* .service-dropdown-button-click {
+  background-color: #1abc9c;
+  border-color: #1abc9c;
+} */
 
 
 
