@@ -2330,10 +2330,7 @@ fieldset:disabled a.btn {
   text-transform: inherit;
 }
 
-/* .service-dropdown-button-click {
-  background-color: #1abc9c;
-  border-color: #1abc9c;
-} */
+
 
 
 
@@ -2345,8 +2342,8 @@ fieldset:disabled a.btn {
 
 .btn-secondary:hover {
   color: #fff;
-  background-color: #1e2b37;
-  border-color: #1a252f;
+  background-color: #1abc9c;
+  border-color: #1abc9c;
 }
 
 .btn-secondary:focus, .btn-secondary.focus {
